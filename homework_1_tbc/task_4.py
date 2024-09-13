@@ -1,5 +1,5 @@
 #4
-Temperature = input('Enter temperature: ')
-Fahrenheit = (int(Temperature) * 9/5) + 32
+temperature = input('enter temperature: ')
+fahrenheit = (int(temperature) * 9/5) + 32
 
-print(Fahrenheit)
+print(fahrenheit)

@@ -1,6 +1,6 @@
 #1
-Name = input('Please enter your name: ')
-Username = input('Please enter your username: ')
-Age = input('Please enter your age: ')
+name = input('please enter your name: ')
+username = input('please enter your username: ')
+age = input('please enter your age: ')
 
-print('Hello,', Name, Username, ',You are', Age, 'years old.')
+print('hello,', name, username, ',you are', age, 'years old.')

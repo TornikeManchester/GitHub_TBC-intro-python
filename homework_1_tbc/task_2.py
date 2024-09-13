@@ -1,5 +1,5 @@
 #2
-Name = input('Enter your name: ')
-Birthday_year = input('Enter your birthday year: ')
+name = input('enter your name: ')
+birthday_year = input('enter your birthday year: ')
 
-print('Hello,', Name, 'you are', 2024 - int(Birthday_year), 'years old')
+print('hello,', name, 'you are', 2024 - int(birthday_year), 'years old')
