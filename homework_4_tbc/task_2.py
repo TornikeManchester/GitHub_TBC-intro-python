@@ -2,10 +2,10 @@ import random
 
 number = int(input('Enter number: '))
 
-if number > 30:
-    exit(1)
-elif number <= 0:
-    exit(1)
+if 0 < number < 30:
+    max_value = max(random.randint(1, 1001)
+        for i in range(number))
+    print("Maximum value:", max_value)
 else:
-    for i in range(number):
-        print(random.randint(1,1001))
+    print("უნდა შეიყვანოთ რიცხვი 0-დან 30-მდე დიაპაზონში")
+    exit(1)
